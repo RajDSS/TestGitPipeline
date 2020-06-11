@@ -4,7 +4,7 @@ echo "Testing";
 include 'connection.php';
 $query = "SELECT * FROM User";
 /* Execute the query */
-$stmt = $dsn->query($query);
+$stmt = $conn->query($query);
 
 
 /* Iterate through the result set */
