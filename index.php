@@ -1,5 +1,5 @@
 <?php
-
+echo "Testing";
 /* Include the MySQLi procedural-style connection script */
 include 'connection.php';
 $query = "SELECT * FROM User";
